@@ -1,7 +1,7 @@
-# IT Help Desk Dashboard
+# IT Help Desk Ticket Dashboard
 
-A clean, responsive ticketing system built with **Flask** and **SQLite**.  
-Users can create, view, and resolve tickets, with filters for **status** (Open/Resolved) and **priority** (High/Medium/Low). This project demonstrates beginner-friendly **full-stack web development** skills.
+A responsive ticketing system built with **Flask** and **SQLite**.  
+Users can create, view, and resolve tickets, with filters for **status** (Open/Resolved) and **priority** (High/Medium/Low). This project demonstrates **full-stack web development** skills.
 
 ## Features
 
