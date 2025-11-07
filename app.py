@@ -45,7 +45,6 @@ def index():
     cursor.execute(query, params)
     tickets = cursor.fetchall()
 
-    # Calculate summary stats
     cursor.execute("SELECT COUNT(*) FROM tickets WHERE status='Open'")
     open_count = cursor.fetchone()[0]
     cursor.execute("SELECT COUNT(*) FROM tickets WHERE priority='High' AND status='Open'")
